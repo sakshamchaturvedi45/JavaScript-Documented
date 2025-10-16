@@ -22,7 +22,7 @@
 
 // console.log(typeof firstName);
 
-// dynamic typing in js
+// dynamic typing in js (Object)
 // let bookName = {
 //     name: 'Initialization',
 //     author: 'Jimmy Cook',
@@ -76,7 +76,27 @@
 // let b = '20';
 // console.log(a === b);
 
-let age = 16;
-const candrink = age >= 18 ? 'hell yeah' : 'grow up kid';
+// Turnery operator
+// let age = 16;
+// const candrink = age >= 18 ? 'hell yeah' : 'grow up kid';
+// // can assign true false to different names here
 
-console.log(candrink);
+// console.log(candrink);
+// prompt("What is this");
+
+// function sayHi(name, batchnum) {
+// console.log('Hi! '+ name +', '+ batchnum)
+// }
+//     sayHi('Saksham', 1816);
+
+let customer = {
+
+name: 'ALex Brown',
+orderid: 2326,
+sku: 'MRO-TAM-SL-S10',
+countryName: 'United States',
+size: 9,
+ringqty: 2,
+orderDate: '25/06/2024'
+};
+console.log(customer);
